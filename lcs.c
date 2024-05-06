@@ -25,12 +25,12 @@ desc:
 
 variable integer := i,j;
 
-for (i=0;i<len_X) do//step=step+1
+for (j=0;i<len_Y) do//step=step+1
 	cost[0][j]=0
 
 	end for
 
-for (j=0;i<len_Y) do //step=step+1
+for (i=0;i<len_X) do //step=step+1
 	cost[i][0]=0
 	
 	end for
